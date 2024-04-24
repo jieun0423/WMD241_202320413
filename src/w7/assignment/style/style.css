@@ -1,0 +1,342 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.black1 {
+  padding-inline: 90px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  padding-block: 0;
+  margin: 0;
+}
+
+.black1 > .black1__menu-group {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  font-size: 23px;
+  max-width: 1900px;
+  gap: 5px;
+  align-items: center;
+  margin-block: 20px;
+}
+
+.black1__menu-group.black1__menu-group-right {
+  gap: 15px;
+}
+
+.black1 > li {
+  text-transform: capitalize;
+}
+
+.black1__logo {
+  width: 126px;
+  height: 32px;
+  background-color: blue;
+}
+
+li {
+  color: rgb(255, 255, 255);
+}
+.menu-item {
+  border: 1px solid #fff; /* 테두리 스타일과 색상 지정 */
+  padding-block: 9px; /* 내부 여백 설정 */
+  padding-inline: 20px;
+  border-radius: 8px; /* 박스의 모서리를 둥글게 만든다 */
+}
+
+.menu-item:last-child {
+  background-color: rgb(85, 64, 246); /* Sign in 버튼에만 배경색을 지정 */
+  border: 1px;
+  padding-inline: 36px;
+}
+
+.purple2 {
+  background-color: #dadbf1;
+  padding: 100px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.purple2__menu-group {
+  text-align: center; /* 가운데 정렬 */
+  font-size: 75px;
+  margin: 0;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-box {
+  display: flex; /* 요소를 가로로 배치 */
+  justify-content: space-between; /* 요소 사이의 간격을 최대한 넓힌다 */
+  align-items: center;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  margin-inline: 250px;
+  padding-inline: 20px;
+  padding-block: 1px;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-block: 20px;
+  color: rgb(124, 125, 125);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-box p:nth-child(2) {
+  color: rgb(0, 0, 0); /* 원하는 색상으로 변경하세요 */
+  font-weight: 600;
+}
+
+.white3-1 {
+  padding-inline: 120px 140px;
+  padding-block: 120px 80px;
+  align-items: center;
+}
+
+.white3-1 img {
+  width: 80px;
+  height: auto; /* 이미지 비율을 유지하면서 너비를 80px로 고정 */
+}
+
+.white3-1__menu-group-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.list-item-title {
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  font-weight: 770;
+  list-style-type: none;
+  margin-block: 10px;
+  padding-left: 0px;
+}
+
+.list-item-description {
+  color: rgb(0, 0, 0); /* 설명의 색상을 초록색으로 지정 */
+  font-size: 23px; /* 설명의 폰트 크기를 16px로 지정 */
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.list-item-learn-more {
+  color: rgb(17, 25, 246); /* 'Learn More' 버튼의 색상을 빨간색으로 지정 */
+  font-size: 18px; /* 'Learn More' 버튼의 폰트 크기를 18px로 지정 */
+  list-style-type: none;
+  margin-block: 16px;
+  padding-left: 0px;
+}
+
+.list-item-title2 {
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  font-weight: 770;
+  list-style-type: none;
+  margin-block: 10px;
+  padding-left: 0px;
+}
+
+.list-item-description2 {
+  color: rgb(0, 0, 0); /* 설명의 색상을 초록색으로 지정 */
+  font-size: 23px; /* 설명의 폰트 크기를 16px로 지정 */
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.list-item-learn-more2 {
+  color: rgb(17, 25, 246); /* 'Learn More' 버튼의 색상을 빨간색으로 지정 */
+  font-size: 18px; /* 'Learn More' 버튼의 폰트 크기를 18px로 지정 */
+  list-style-type: none;
+  margin-block: 16px;
+  padding-left: 0px;
+}
+
+.white3-2 {
+  padding-inline: 45px 160px;
+
+  align-items: center;
+}
+
+.white3-2 img {
+  width: 80px;
+  height: auto; /* 이미지 비율을 유지하면서 너비를 80px로 고정 */
+}
+
+.white3-2__menu-group-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.list-item-title3 {
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  font-weight: 770;
+  list-style-type: none;
+  margin-block: 10px;
+  padding-left: 0px;
+}
+
+.list-item-description3 {
+  color: rgb(0, 0, 0); /* 설명의 색상을 초록색으로 지정 */
+  font-size: 23px; /* 설명의 폰트 크기를 16px로 지정 */
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.list-item-learn-more3 {
+  color: rgb(17, 25, 246); /* 'Learn More' 버튼의 색상을 빨간색으로 지정 */
+  font-size: 18px; /* 'Learn More' 버튼의 폰트 크기를 18px로 지정 */
+  list-style-type: none;
+  margin-block: 16px;
+  padding-left: 0px;
+}
+
+.list-item-title4 {
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  font-weight: 770;
+  list-style-type: none;
+  margin-block: 10px;
+  padding-left: 0px;
+}
+
+.list-item-description4 {
+  color: rgb(0, 0, 0); /* 설명의 색상을 초록색으로 지정 */
+  font-size: 23px; /* 설명의 폰트 크기를 16px로 지정 */
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.list-item-learn-more4 {
+  color: rgb(17, 25, 246); /* 'Learn More' 버튼의 색상을 빨간색으로 지정 */
+  font-size: 18px; /* 'Learn More' 버튼의 폰트 크기를 18px로 지정 */
+  list-style-type: none;
+  margin-block: 16px;
+  padding-left: 0px;
+}
+
+.white3-3 {
+  padding-inline: 90px 240px;
+  padding-block: 50px 70px;
+  align-items: center;
+}
+
+.white3-3 img {
+  width: 80px;
+  height: auto; /* 이미지 비율을 유지하면서 너비를 80px로 고정 */
+}
+
+.white3-3__menu-group-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.list-item-title5 {
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  font-weight: 770;
+  list-style-type: none;
+  margin-block: 10px;
+  padding-left: 0px;
+}
+
+.list-item-description5 {
+  color: rgb(0, 0, 0); /* 설명의 색상을 초록색으로 지정 */
+  font-size: 23px; /* 설명의 폰트 크기를 16px로 지정 */
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.list-item-learn-more5 {
+  color: rgb(17, 25, 246); /* 'Learn More' 버튼의 색상을 빨간색으로 지정 */
+  font-size: 18px; /* 'Learn More' 버튼의 폰트 크기를 18px로 지정 */
+  list-style-type: none;
+  margin-block: 16px;
+  padding-left: 0px;
+}
+
+.list-item-title6 {
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  font-weight: 770;
+  list-style-type: none;
+  margin-block: 10px;
+  padding-left: 0px;
+}
+
+.list-item-description6 {
+  color: rgb(0, 0, 0); /* 설명의 색상을 초록색으로 지정 */
+  font-size: 23px; /* 설명의 폰트 크기를 16px로 지정 */
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.list-item-learn-more6 {
+  color: rgb(17, 25, 246); /* 'Learn More' 버튼의 색상을 빨간색으로 지정 */
+  font-size: 18px; /* 'Learn More' 버튼의 폰트 크기를 18px로 지정 */
+  list-style-type: none;
+  margin-block: 16px;
+  padding-left: 0px;
+}
+
+.black4 {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0px;
+  padding-inline: 60px;
+}
+.black4-list-1 {
+  font-size: 25px;
+  list-style: none;
+  font-weight: 700;
+  margin-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+
+.black4-list-2 {
+  list-style: none;
+  gap: 15px;
+  font-size: 17px;
+}
+
+.black4 ol:nth-last-child(2) li:nth-last-child(2) {
+  margin-top: 30px;
+  font-weight: bold;
+  /* 여기에 추가적인 스타일을 지정할 수 있습니다 */
+}
+
+.black4-logo {
+  list-style: none;
+  margin-top: 230px;
+  margin-bottom: 30px;
+  width: 35.7px;
+  height: 35.7px;
+  background-color: blue;
+}
+
+.black4-list-3 {
+  font-size: 20px;
+  list-style: none;
+}
+.black4-list-3:last-child {
+  margin-bottom: 27px;
+}
