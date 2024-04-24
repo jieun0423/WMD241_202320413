@@ -188,14 +188,14 @@ h1 {
   font-weight: 770;
   list-style-type: none;
   margin-block: 10px;
-  padding-left: 0px;
+  padding-left: 35px;
 }
 
 .list-item-description3 {
   color: rgb(0, 0, 0); /* 설명의 색상을 초록색으로 지정 */
   font-size: 23px; /* 설명의 폰트 크기를 16px로 지정 */
   list-style-type: none;
-  padding-left: 0px;
+  padding-left: 35px;
 }
 
 .list-item-learn-more3 {
@@ -203,7 +203,7 @@ h1 {
   font-size: 18px; /* 'Learn More' 버튼의 폰트 크기를 18px로 지정 */
   list-style-type: none;
   margin-block: 16px;
-  padding-left: 0px;
+  padding-left: 35px;
 }
 
 .list-item-title4 {
